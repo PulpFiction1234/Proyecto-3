@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-star-wars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
