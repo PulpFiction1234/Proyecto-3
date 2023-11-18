@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(../images/star-wars-backgrounds-14_856985d9.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hace que el body ocupe al menos el 100% de la altura de la ventana */
+}
+
+h2{
+    margin-top: 20px;
+}
+
+p, h1, h2 {
+    color: azure;
+}
+
+p{
+    margin-top: 6px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+a{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    color: azure;
+}
+
+.chart-container{
+
+    height: 300px;
+    width: 33%;
+}
+
+.resultados{
+    width: 33%;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    background-color: transparent;
+}
+
+.buscador-caja{
+    width: 33%;
+    height: 300px;
+}
+
+.buscador{
+    margin-top: 10px;
+    border: none;
+}
+
+button{
+    border: none;
+}
+.sub-caja{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.img-nav{
+    height: 120px;
+    width: 300px;
+}
+
+.ul-nav{
+    display: flex;
+    width: 100%;
+}
+.caja-general{
+    padding: 0%;
+    background-color: rgba(97, 96, 96, 0.5); /* RGBA donde el último valor (0.5) controla la opacidad (0 es transparente, 1 es opaco) */
+    width: 55%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex1{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer{
+    background-color: rgba(97, 96, 96, 0.5); /* RGBA donde el último valor (0.5) controla la opacidad (0 es transparente, 1 es opaco) */  
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: left;
+}
+
+.div-footer{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10%;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 3</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      <ul class="ul-nav">
+        <li class=""><img src="../images/klipartz.com.png" class="img-nav"></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="flex1">
+    <div class="caja-general">
+      <div class="buscador-caja">  
+        <div class="sub-caja">
+          <h1>Wiki Wars</h1>
+          <label for="characterName"><p>Buscar Personaje:</p></label>
+          <input  class="buscador" type="text" id="characterName" placeholder="Ingrese el nombre del personaje">
+          <button id="searchButton">Buscar</button>
+        </div>
+      </div>
+      <div class="resultados">
+        <div id="resultados"></div>
+      </div>
+      
+      <div class="chart-container"> 
+        <canvas id="chart"></canvas>
+      </div>
+      </div>
+    </div>
+  <footer class="footer">
+    <div class="div-footer">
+      <h2>Contacto</h2>
+      <a href="">Wikistar@gmail.com</a>
+      <a href="">+56 9 85341675</a>
+    </div>
+    <div class="div-footer">
+      <h2>Nuestras Apis</h2>
+      <a href="">Api planetas</a>
+      <a href="">Api naves</a>
+      <a href="">Api Personajes</a>
+    </div>
+    <div class="div-footer ">
+      <h2>Legal</h2>
+      <a href="">Terminos y condiciones </a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="api.js"></script>
+</body>
+</html>
